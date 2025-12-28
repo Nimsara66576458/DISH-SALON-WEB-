@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 import './App.css';
 
 // Render එකට දැමූ පසු ලැබෙන URL එක මෙතනට දාන්න
-const BACKEND_URL = "https://dish-salon-backend.onrender.com"; 
+const BACKEND_URL = "https://dish-salon-web.onrender.com"; 
 const socket = io(BACKEND_URL);
 
 function App() {
