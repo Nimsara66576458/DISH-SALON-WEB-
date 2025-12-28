@@ -1,0 +1,10 @@
+body { background: #000; color: #fff; font-family: sans-serif; margin: 0; }
+.nav { display: flex; justify-content: space-between; padding: 20px; background: #111; border-bottom: 2px solid #d4af37; }
+.nav h1 { color: #d4af37; margin: 0; }
+.adm-btn { background: #d4af37; border: none; padding: 10px; cursor: pointer; font-weight: bold; }
+.admin-panel { background: #1a1a1a; padding: 20px; text-align: center; }
+.admin-panel input, .admin-panel textarea { width: 80%; margin: 10px; padding: 10px; display: block; margin-left: auto; margin-right: auto; }
+.gallery { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+.card { background: #111; margin: 15px; border-radius: 10px; overflow: hidden; width: 300px; border: 1px solid #333; }
+.card img, .card video { width: 100%; height: 250px; object-fit: cover; }
+.cap { padding: 10px; text-align: center; color: #d4af37; }
